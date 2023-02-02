@@ -126,7 +126,6 @@ class Protocol
         NodeB->>NodeB: 计算NodeA协议列表
         NodeB->>NodeA: NodeB 协议列表
         NodeA->>NodeA: 计算NodeB 协议列表
-        Note right of ConsensusNodeB: ttl > 1, 向未缓存于filter<br/>节点转发PBFT消息<br/>msg{id, ttl-1}
 ```
 
 协议协商方法设计：
